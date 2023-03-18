@@ -22,7 +22,7 @@ import (
 	"crypto/x509"
 	"encoding/pem"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"net"
 	"net/http"
 	"regexp"

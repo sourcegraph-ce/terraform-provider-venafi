@@ -24,7 +24,7 @@ import (
 	"github.com/Venafi/vcert/pkg/venafi/fake"
 	"github.com/Venafi/vcert/pkg/venafi/tpp"
 	"github.com/Venafi/vcert/pkg/verror"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 )
 
 // NewClient returns a connector for either Trust Protection Platform (TPP) or Venafi Cloud based on provided configuration.

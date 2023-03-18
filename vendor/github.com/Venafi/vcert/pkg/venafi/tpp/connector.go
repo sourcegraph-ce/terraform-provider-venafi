@@ -21,7 +21,7 @@ import (
 	"encoding/json"
 	"encoding/pem"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"net/http"
 	neturl "net/url"
 	"regexp"
