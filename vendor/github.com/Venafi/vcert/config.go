@@ -19,7 +19,7 @@ package vcert
 import (
 	"fmt"
 	"io/ioutil"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"net/http"
 	"os/user"
 	"path/filepath"

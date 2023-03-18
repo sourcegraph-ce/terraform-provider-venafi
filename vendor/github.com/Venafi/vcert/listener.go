@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"github.com/Venafi/vcert/pkg/certificate"
 	"github.com/Venafi/vcert/pkg/endpoint"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"net"
 	"time"
 )

@@ -12,7 +12,7 @@ import (
 	"github.com/Venafi/vcert"
 	"github.com/Venafi/vcert/pkg/certificate"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"strings"
 )
 
