@@ -25,7 +25,7 @@ import (
 	"fmt"
 	"io"
 	"io/ioutil"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"net"
 	"net/http"
 	"regexp"

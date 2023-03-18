@@ -6,7 +6,7 @@ import (
 	"github.com/Venafi/vcert/pkg/endpoint"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/terraform"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 )
 
 const (
